@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "author": "elzero",
+    "category": "tech",
+    "title": "JavaScript How it Works!",
+    "content": "content content content content content"
+  },
+  {
+    "id": 2,
+    "author": "elzero",
+    "category": "tech",
+    "title": "Python Behind the sence",
+    "content": "content content content content content"
+  },
+  {
+    "id": 3,
+    "author": "elzero",
+    "category": "tech",
+    "title": "Revolution Of AI",
+    "content": "content content content content content"
+  },
+  {
+    "id": 4,
+    "author": "elzero",
+    "category": "tech",
+    "title": "RestApi vs GaphQl",
+    "content": "content content content content content"
+  },
+  {
+    "id": 5,
+    "author": "elzero",
+    "category": "tech",
+    "title": "Rust vs C++",
+    "content": "content content content content content"
+  }
+]

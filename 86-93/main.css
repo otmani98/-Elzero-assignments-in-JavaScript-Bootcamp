@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+form {
+  margin: 30px auto;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+form input,
+select {
+  display: block;
+  margin-top: 10px;
+  border: 1px solid #cac8c8;
+  padding: 6px;
+  background-color: white;
+  border-radius: 5px;
+  width: 250px;
+}
+form input[name="create"] {
+  background-color: #009b84;
+  font-weight: bold;
+  color: white;
+  width: 250px;
+}
+
+form input:focus,
+select:focus,
+select:focus-visible {
+  outline: none;
+  border: 1px solid #009b84;
+}
+
+.results {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.results div,
+.results section {
+  background-color: #fc5926;
+  color: white;
+  padding: 5px;
+  font-size: 25px;
+  width: 150px;
+  border-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}

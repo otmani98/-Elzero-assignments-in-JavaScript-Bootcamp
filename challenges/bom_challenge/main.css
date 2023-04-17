@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  /* margin: 0 0 100px; */
+}
+html {
+  scroll-behavior: smooth;
+}
+form {
+  background-color: #eee;
+  padding: 40px 0px;
+  width: 550px;
+  margin: 20px auto;
+  text-align: center;
+  border-radius: 15px;
+}
+input,
+button {
+  padding: 10px;
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 5px;
+  font-size: 20px;
+}
+input:focus {
+  border: 1px solid #f44821;
+  outline: none;
+}
+input[type="submit"] {
+  background: #f44821;
+  color: white;
+  cursor: pointer;
+}
+.tasks {
+  background-color: #eee;
+  padding: 30px 0px;
+  width: 550px;
+  margin: 20px auto;
+  text-align: center;
+  border-radius: 15px;
+}
+ul {
+  margin: 0;
+}
+li {
+  list-style: none;
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  padding: 5px;
+  padding-left: 15px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  font-size: 20px;
+}
+button {
+  background: #f44821;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  border: none;
+}
+
+@media (max-width: 769px) {
+  form {
+    width: 360px;
+    margin: 20px auto;
+  }
+  .tasks {
+    width: 360px;
+    margin: 20px auto;
+  }
+  input,
+  button {
+    font-size: 20px;
+    padding: 16px;
+  }
+  input[type="submit"] {
+    margin-top: 15px;
+  }
+}
